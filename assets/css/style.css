@@ -6,8 +6,6 @@
   height: auto;
   overflow: hidden;
   /* display: inline-block; */
-  
-  
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
@@ -483,13 +481,13 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #c52222 !important;
 }
 
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #c52222 !important;
 }
 
 @media (min-width: 1200px) {
