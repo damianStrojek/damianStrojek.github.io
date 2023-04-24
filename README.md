@@ -1,13 +1,12 @@
-# Hey, I am Damien!
+# Hey, I am Damian!
 
-## I'm a Computer Science Student, Cybersecurity Engineer and an Polish/English Author!
+## A Computer Science Student, Cybersecurity Engineer and an Polish/English Author!
 
 👮 I work as a Security Engineer at [Objectivity].
 
 🔭 I used to be top600 worldwide and top20 in Poland on TryHackMe!
 
 🌱 I’m currently studying Computer Science at GUT in Poland. The topic of my engineering thesis is [*Design and implementation of a didactic security testing environment for web applications*]. The second big project that I am currently working on is [*an application for monitoring the performance of a computing cluster*].
-
 
 📚 In technical high school, I co-authored [3 books intended for students of CS-related courses]. They were published in Polish and English.
 
