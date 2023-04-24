@@ -450,6 +450,10 @@ a.hoverline:hover {
   height: 240px;
 }
 
+.card.small .card-image {
+  height: 150px;
+}
+
 .card-action a.btn-floating {
   margin-bottom: 0;
 }
