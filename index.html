@@ -1,713 +1,784 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <!-- 
 
         2023 Damian Strojek @damianStrojek
         Internet portfolio created from the template of @varadbhogayata.
 
 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
+    <!-- End Google Tag Manager -->
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
+    <!-- Materialize - Compiled and minified CSS-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+    <!-- Font Awesome Icon - CSS-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="icon" href="/assets/img/icon.png" />
+    <title>Damian Strojek | Security Engineer</title>
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <link rel="icon" href="/assets/img/icon.png" />
-  <title>Damian Strojek | Security Engineer</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag('config', 'UA-126939217-2');
+    </script>
 
-    gtag('config', 'UA-126939217-2');
-  </script>
+    <!-- Google Site Verification for indexing -->
+    <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+  </head>
 
-  <!-- Google Site Verification for indexing -->
-  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
-</head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    
+    <!-- Navigation Menu-->
+    <!-- Nav class 1 -->
+    <nav class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
+        <li class="logo">
+          <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+            class="brand-logo grey-blue-text">
+            <img src="/assets/img/damian-portrait-1.jpg" class="img-responsive profile-pic" alt="avatar">
+          </a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+              class="mdi-social-person small"></i><span>About</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Experience section" href="#experience"
+            class="waves-effect waves-dark teal-text"><i
+              class="mdi-action-trending-up small"></i><span>Experience</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+              class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Books section" href="#books" class="waves-effect waves-dark teal-text"><i
+              class="mdi-image-edit small"></i><span>Books</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+              class="mdi-action-assessment small"></i><span>Skills</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+              class="mdi-social-school small"></i><span>Education</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+              class="mdi-content-mail small"></i><span>Contact</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Open Damian's resume in a new tab" href="/assets/resume/StrojekDamian-CV-no-phone.pdf" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+        </li>
+      </ul>
+    </nav>
 
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/damian-portrait-2.jpg" class="img-responsive profile-pic" alt="avatar">
-        </a>
-      </li>
+    <!-- Nav class 2 -->
+    <nav class="hide-on-large only trigger z-depth-1">
+      <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+        class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <div class="name-title">
+        <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Damian Strojek</a><span class="black-text">Security Engineer</span>
+      </div>
+    </nav>
 
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
+    <!-- Nav class 3 -->
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold">
+          <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+              class="mdi-social-person small"></i><span>About</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Experience section" href="#experience"
+            class="waves-effect waves-dark teal-text"><i
+              class="mdi-action-trending-up small"></i><span>Experience</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+              class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Books section" href="#books" class="waves-effect waves-dark teal-text"><i
+              class="mdi-image-edit small"></i><span>Books</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+              class="mdi-action-assessment small"></i><span>Skills</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+              class="mdi-social-school small"></i><span>Education</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+              class="mdi-content-mail small"></i><span>Contact</span></a>
+        </li>
+        <li class="bold">
+          <a aria-label="Open Damian's Resume in a new tab"
+            href="/assets/resume/StrojekDamian-CV-no-phone.pdf" target="_blank"
+            class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+        </li>
+      </ul>
+    </nav>
 
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-      
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Open Damian's resume in a new tab" href="/assets/resume/StrojekDamian-CV-no-phone.pdf" target="_blank"
-        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Damian Strojek</a><span class="black-text">Security Engineer</span>
-    </div>
-  </nav>
-
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open Damian's Resume in a new tab"
-          href="/assets/resume/StrojekDamian-CV-no-phone.pdf" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Main Content-->
-  <main>
-    <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>Hi, I am <span class="teal">Damian</span></h2>
-              <h5 style="color:#fff"><span class="typing" style="font-weight: 300; color:#000000"></span></h5>
-              <h5>Self-driven, quick starter, passionate engineer with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
-            </div>
-            <!-- TODO Add another platforms like TryHackMe, etc.-->
-            <div class="social">
-              <a href="https://www.linkedin.com/in/damianstrojek/" target="_blank">
-                <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </button>
-              </a>
-              <a href="https://github.com/damianStrojek" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
-            </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
+    <!-- Main Content-->
+    <main>
+      <!-- First Section: Heading lines and image -->
+      <section id="intro" class="section scrollspy full-height">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="col-md-9">
+            <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+              <div class="caption">
+                <h2>Hi, I am <span class="teal">Damian</span></h2>
+                <h5 style="color:#fff"><span class="typing" style="font-weight: 500; color:#1e2a35"></span></h5>
+                <h5>Self-driven, quick starter, passionate engineer with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
+              </div>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/damianstrojek/" target="_blank">
+                  <button class="icon-btn linkedin">
+                    <i class="fa fa-linkedin"></i>
+                  </button>
+                </a>
+                <a href="https://github.com/damianStrojek" target="_blank">
+                  <button class="icon-btn github">
+                    <i class="fa fa-github"></i>
+                  </button>
+                </a>
+                <a href="https://tryhackme.com/p/damianStr" target="_blank">
+                  <button class="icon-btn tryhackme">
+                    <i class="fa fa-bug"></i>
+                  </button>
+                </a>
+              </div>
+              <div class='buttons'>
+                <a href="#about" class="readme">Read More</a>
+                <a href="#contact" class="contactme">Contact Me</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Second Section: About -->
-    <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="container flow-text">     
-        <p>
-          I am a passionate Computer Science student working on my engineering thesis at Gdansk University of Technology in Poland. I enjoy working on security posture but I would love to pivot towards penetration testing and then Red Teaming. Always strive to bring 100% to the work I do.
-          <br>
-          I have worked on technologies like C++, C, Python, Java, .NET, Assembler, HTML during my bachelor's. I have over one year of professional work experience which helped me understand why and how I should work for the company.
-        </p>
-        <p>
-          <ul>
-            <li><b>Languages:</b> C++, C, Python, Java, C#, Assembly, HTML/CSS, Bash, Rust, Powershell scripting</li>
-            <li><b>Some of the Tools:</b> nmap/rustscan, Burp-Suite/ZAP, Wireshark, gobuster, Metasploit, mimikatz, Bloodhound</li>
-            <li><b>Technologies:</b> Git, Docker, Azure, GCP, JIRA, Kubernetes, Cisco</li>
-          </ul>
-        </p>
-        <p>
-          Looking for an opportunity to work in a challenging position combining my Social and Engineering skils, interesting experiences, and problem-solving mind.
-        </p>
-      </div>
-    </section>
-
-    <!-- Third Section: Experience -->
-    <section id="experience" class="section scrollspy">
-      <h3 class="page-title white-text teal">Experience</h3>
-      <div class="container">
-
-        <!-- Latest Experience -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.objectivity.co.uk/" target="_blank"><img alt="Zhiffy logo"
-                    src="/assets/img/objectivity-logo.png" class="responsive-img center-block" /></a>
-              </div>
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.objectivity.co.uk/" target="_blank"
-                      class="teal-text hoverline">Objectivity</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Security Engineer</div>
+      <!-- Second Section: About -->
+      <section id="about" class="section scrollspy">
+        <h3 class="page-title white-text teal">About</h3>
+        <div class="container flow-text">     
+          <p>
+            I am a passionate Computer Science student working on my engineering thesis at Gdansk University of Technology in Poland. I enjoy working on security posture but I would love to pivot towards penetration testing and Red Teaming.
+            <br>
+            During my engineering degree I worked with various technologies and programming languages.
+            <br>
+            I have over a year of professional experience as an engineer, which allowed me to understand how people and companies work.
+          </p>
+          <p>
+            Some of the technologies and tools that I have dealt with so far:
             <ul>
-              <li>Performing most of the security operational tasks, leading member of small "SOC" team.</li>
-              <li>I worked in a project for one of the "Big Four" companies for several months as a person dealing with the configuration of scanners for the OWASP SecureCodeBox product.</li>
-              <li>Author of security documentation along with written use-cases related to possible security incidents.</li>
-              <li>Precursor of company-wide phishing simulations that raised the awareness of every employee.</li>
-              <li>Carrying out vulnerability scans in external and internal projects and supervised Vulnerability Management in the company.</li>
-              <li>Performing internal security audits, penetration tests and advising everyone on security-related matters.</li>
+              <li><b>Languages:</b> C++, C, Python, Java, C#, Assembly, HTML/CSS, Bash, Rust, Powershell</li>
+              <li><b>Security Tools:</b> nmap/rustscan, Burp-Suite/ZAP, Wireshark, gobuster, Metasploit, mimikatz, Bloodhound</li>
+              <li><b>Technologies:</b> Azure, Git, Docker, JIRA, Kubernetes, Cisco, Qualys, Fortinet</li>
             </ul>
-            <p>
-              <b>Tools:</b> Microsoft Azure Cloud, 365 Defender, Qualys, Jira, Powershell, Kiuwan
-            </p>
-          </div>
-          <div class="card-action">
-            <span>April 2022 - Now | Remote, Poland</span>
-          </div>
+          </p>
+          <p>
+            Looking for an opportunity to work in a challenging position combining my Social and Engineering skils, interesting experiences, and problem-solving mind.
+          </p>
         </div>
+      </section>
 
-        <!-- Experience template -->
-        <!--
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.cignex.com" target="_blank"><img alt="Cignex logo"
-                    src="/assets/img/exp-cignex-logo.png" class="responsive-img center-block" /></a>
-              </div>
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.cignex.com" target="_blank"
-                      class="teal-text hoverline">CIGNEX
-                      Datamatics </a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Project Trainee</div>
-            <ul>
-              <li>
-                Designed a library management system for a local library, where we undertook activities like requirement
-                elicitation, preparing Data Flow
-                and Entity-Relationship diagrams.
-              </li>
-              <li>
-                Delivered a solution for a POC involving Automatic Financial Document Classifier using Natural Language
-                Processing and Support Vector
-                Machines with 96% accuracy on the company’s data.
-              </li>
-              <li>
-                <b>Tools:</b> Python, Scikit-learn, NLTK
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>June 2017 - July 2017 | Ahmedabad, India</span>
-          </div>
-        </div>-->
-      </div>
-    </section>
+      <!-- Third Section: Experience -->
+      <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Experience</h3>
+        <div class="container">
 
-    <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
-
-            <!-- 1. Web Security -->
-            <div class="col s12 m6 l6">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img alt="web security testing" src="/assets/img/web-app-security.svg" style="height: 100%; width: 100%" class="activator" />
+          <!-- Latest Experience -->
+          <div class="card">
+            <div class="card-content">
+              <div class="row">
+                <div class="col s12 m2">
+                  <a href="https://www.objectivity.co.uk/" target="_blank"><img alt="Zhiffy logo"
+                      src="/assets/img/objectivity-logo-small.jpg" class="responsive-img center-block" />
+                  </a>
                 </div>
-                <div class="card-content">
-                  <span class="card-title activator teal-text hoverline">Security Testing Environment<i class="mdi-navigation-more-vert right"></i></span>
+                <div class="col s12 m10">
                   <p>
-                    Design and implementation of a didactic security testing environment for web applications. <b>Project is still in-progress as of April 2023</b>.
+                    <span class="card-title"><a href="https://www.objectivity.co.uk/" target="_blank"
+                        class="teal-text hoverline">Objectivity</a></span>
                   </p>
                 </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
-                  <ul>
-                    <li><b>Tools:</b> HTML, CSS, MySQL, ...</li>
-                    <li>Users can create and manage modules.</li>
-                    <li>Users can exploit different modules and get access to the system.</li>
-                    <li>Project is using different types of databases to emulate different attacks.</li>
-                  </ul>
-                  <div class="card-action">
-                    <a aria-label="Visit the GitHub repo for project" href="https://github.com/damianStrojek/Security-Testing-of-Web-Applications"
-                      target="_blank" data-position="top" data-tooltip="View Source"
-                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                        class="fa fa-github"></i></a>
-                  </div>
-                </div>
               </div>
+              <div class="role brown-text text-darken-2">Security Engineer</div>
+              <ul>
+                <li>Performing most of the security operational tasks, leading member of small "SOC" team.</li>
+                <li>I worked in a project for one of the "Big Four" companies for several months as a person dealing with the configuration of scanners for the OWASP SecureCodeBox product.</li>
+                <li>Author of security documentation along with written use-cases related to possible security incidents.</li>
+                <li>Precursor of company-wide phishing simulations that raised the awareness of every employee.</li>
+                <li>Carrying out vulnerability scans in external and internal projects and supervised Vulnerability Management in the company.</li>
+                <li>Performing internal security audits, penetration tests and advising everyone on security-related matters.</li>
+              </ul>
+              <p>
+                <b>Tools:</b> Microsoft Azure Cloud, 365 Defender, Qualys, Jira, Powershell, Kiuwan
+              </p>
             </div>
-  
-            <!-- 2. Computer Cluster -->
-            <div class="col s12 m6 l6">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img alt="computer cluster" src="/assets/img/computing-cluster.jpg" style="height: 100%; width: 100%" class="activator" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator teal-text hoverline">Application for Monitoring Performance and Energy Consumption in a Computing Cluster<i class="mdi-navigation-more-vert right"></i></span>
-                  <p>
-                    The C++ application that can synchronize metrics downloaded from different nodes in a computing cluster.
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
-                  <ul>
-                    <li><b>Tools:</b> C++, SCRUM, Linux, bash, MPI, Intel RAPL, NVIDIA NVML</li>
-                    <li>This project was entirely organized by me - from communication with the client to creating and supervising the backlog and delivering the product.</li>
-                    <li>My main development tasks were to create a function to fetch all metrics, implement Intel RAPL and NVIDIA NVML functionalities and write to JSON file.</li>
-                    <li>I was also responsible for all of the code styling, fixes, refactoring.</li>
-                  </ul>
-                  <div class="card-action">
-                    <a aria-label="Visit the GitHub repo for project" href="https://github.com/damianStrojek/Measuring-Performance-in-Computer-Claster"
-                      target="_blank" data-position="top" data-tooltip="View Source"
-                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                        class="fa fa-github"></i></a>
-                  </div>
-                </div>
-              </div>
+            <div class="card-action">
+              <span>April 2022 - Now | Remote, Poland</span>
             </div>
-
-            <!-- 3. simple tester -->
-            <div class="col s12 m6 l6">
-              <div class="card medium">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img alt="computer cluster" src="/assets/img/simple-tester.png" style="height: 100%; width: 100%" class="activator" />
-                </div>
-                <div class="card-content">
-                  <span class="card-title activator teal-text hoverline">Simple Tester<i class="mdi-navigation-more-vert right"></i></span>
-                  <p>
-                    App made for students who want to learn for different exams. Simple UI combined with simple database files.
-                  </p>
-                </div>
-                <div class="card-reveal">
-                  <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
-                  <ul>
-                    <li><b>Tools:</b> C++, Linux</li>
-                    <li>The questions are randomly selected from the database and answers are shuffled.</li>
-                    <li>Users can make comments in the database files.</li>
-                    <li>There is a new type of questions - "open questions" that improve the functionality of simple-tester.</li>
-                  </ul>
-                  <div class="card-action">
-                    <a aria-label="Visit the GitHub repo for project" href="https://github.com/damianStrojek/simple-tester"
-                      target="_blank" data-position="top" data-tooltip="View Source"
-                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                        class="fa fa-github"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- TODO 4. B-Tree algorithm or something-->
+          </div>
 
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Fifth Section: Skills -->
-    <!-- TODO add daily tools, frameworks, technologies, languages and another section for the books-->
-    <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Skills</h3>
-      <!--
-      <div class="container">
-        Languages and Databases
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Languages and Databases</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/postgresql-logo.png" class="responsive-img" />PostgreSQL
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
-              </div>
-            </div>
-          </div>
-        </div>
+      <!-- Fourth Section: Projects -->
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
 
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Libraries</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/opencv-logo-1-500x500.jpg" class="responsive-img" />OpenCV
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />scikit-learn
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />matplotlib
-              </div>
-            </div>
-          </div>
-        </div>-->
-
-        <!-- Frameworks -->
-        <!--
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Frameworks</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Keras
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />TensorFlow
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
-              </div>
-            </div>
-          </div>
-        </div>-->
-
-        <!-- Other -->
-        <!--
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Other</h4>
-            <div class="row text-center">
-
-
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
-              </div>
-            </div>
-          </div>
-        </div>-->
-
-        <!-- certifications -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Certificates</h4>
-            <div class="row text-left">
-              <div class="container">
-                <div class="row">
-
-                  <div class="col s12 m3">
-                    <div class="card medium">
-                      <div class="card-image">
-                        <img src="/assets/img/comptia-security-logo.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">CompTIA Security+</span>
-                      </div>
-                    </div>
+              <!-- 1. Web Security -->
+              <div class="col s12 m6 l6">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="web security testing" src="/assets/img/web-app-security.svg" style="height: 100%; width: 100%" class="activator" />
                   </div>
-
-                  <div class="col s12 m3">
-                    <div class="card medium">
-                      <div class="card-image">
-                        <img src="/assets/img/ejpt-logo.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">eJPT</span>
-                      </div>
-                    </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">Security Testing Environment<i class="mdi-navigation-more-vert right"></i></span>
+                    <p>
+                      Design and implementation of a didactic security testing environment for web applications. <b>Project is still in-progress as of April 2023</b>.
+                    </p>
                   </div>
-
-                  <div class="col s12 m3">
-                    <div class="card medium">
-                      <div class="card-image">
-                        <img src="/assets/img/microsoft-az-900-logo.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Microsoft AZ-900</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m3">
-                    <div class="card medium">
-                      <div class="card-image">
-                        <img src="/assets/img/microsoft-sc-900-logo.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Microsoft SC-900</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m3">
-                    <div class="card medium">
-                      <div class="card-image">
-                        <img src="/assets/img/cisco-r-s-logo.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">CISCO Routing&Switching</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m3">
-                    <div class="card medium">
-                      <div class="card-image">
-                        <img src="/assets/img/cisco-sec-logo.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">CISCO Security</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m3">
-                    <div class="card medium">
-                      <div class="card-image">
-                        <img src="/assets/img/qualys-cert-logo.png">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Qualys VMDR & WAS</span>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Seventh Section: Education -->
-    <section id="education" class="section scrollspy">
-      <h3 class="page-title white-text teal">Education</h3>
-      <div class="container">
-        <div class="row">
-
-          <!-- Education -->
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://pg.edu.pl/en/" target="_blank" class="teal-text hoverline">Gdansk University of Technology</a></span>
-                </p>
-                <p class="brown-text">Gdansk, Poland</p>
-                <p>
-                  <b>Degree: </b>Bachelor of Science in Computer Science      
-                  <br>
-                  <b>End date: </b>02/2024
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                  <ul>
-                    <li>Programming Languages</li>
-                    <li>Computer Architecture</li>
-                    <li>Algorithms and Data Structures</li>
-                    <li>Artifical Intelligence</li>
-                    <li>Software Engineering</li>     
-                  </ul>
-                  </p>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://www.zsl.gda.pl/" target="_blank" class="teal-text hoverline">Computer Science Technical High School</a></span>
-                </p>
-                <p class="brown-text">Gdansk, Poland</p>
-                <p>
-                  <b>Degree: </b>Information and Communication Technology Technician
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
                     <ul>
-                      <li>Computer Networks</li>
-                      <li>Basics of Programming</li>
-                      <li>Operating Systems</li>
+                      <li><b>Tools:</b> HTML, CSS, MySQL, ...</li>
+                      <li>Users can create and manage modules.</li>
+                      <li>Users can exploit different modules and get access to the system.</li>
+                      <li>Project is using different types of databases to emulate different attacks.</li>
                     </ul>
+                    <div class="card-action">
+                      <a aria-label="Visit the GitHub repo for project" href="https://github.com/damianStrojek/Security-Testing-of-Web-Applications"
+                        target="_blank" data-position="top" data-tooltip="View Source"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- 2. Computer Cluster -->
+              <div class="col s12 m6 l6">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="computer cluster" src="/assets/img/computing-cluster.jpg" style="height: 100%; width: 100%" class="activator" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">Application for Monitoring Performance and Energy Consumption in a Computing Cluster<i class="mdi-navigation-more-vert right"></i></span>
+                    <p>
+                      The C++ application that can synchronize metrics downloaded from different nodes in a computing cluster.
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                    <ul>
+                      <li><b>Tools:</b> C++, SCRUM, Linux, bash, MPI, Intel RAPL, NVIDIA NVML</li>
+                      <li>This project was entirely organized by me - from communication with the client to creating and supervising the backlog and delivering the product.</li>
+                      <li>My main development tasks were to create a function to fetch all metrics, implement Intel RAPL and NVIDIA NVML functionalities and write to JSON file.</li>
+                      <li>I was also responsible for all of the code styling, fixes, refactoring.</li>
+                    </ul>
+                    <div class="card-action">
+                      <a aria-label="Visit the GitHub repo for project" href="https://github.com/damianStrojek/Measuring-Performance-in-Computer-Claster"
+                        target="_blank" data-position="top" data-tooltip="View Source"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3. simple tester -->
+              <div class="col s12 m6 l6">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="computer cluster" src="/assets/img/simple-tester.png" style="height: 100%; width: 100%" class="activator" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">Simple Tester<i class="mdi-navigation-more-vert right"></i></span>
+                    <p>
+                      App made for students who want to learn for different exams. Simple UI combined with simple database files.
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                    <ul>
+                      <li><b>Tools:</b> C++, Linux</li>
+                      <li>The questions are randomly selected from the database and answers are shuffled.</li>
+                      <li>Users can make comments in the database files.</li>
+                      <li>There is a new type of questions - "open questions" that improve the functionality of simple-tester.</li>
+                    </ul>
+                    <div class="card-action">
+                      <a aria-label="Visit the GitHub repo for project" href="https://github.com/damianStrojek/simple-tester"
+                        target="_blank" data-position="top" data-tooltip="View Source"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4. B-Tree algorithm -->
+              <div class="col s12 m6 l6">
+                <div class="card medium">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img alt="computer cluster" src="/assets/img/b-tree.webp" style="height: 100%; width: 100%" class="activator" />
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator teal-text hoverline">B-Tree Algorithm<i class="mdi-navigation-more-vert right"></i></span>
+                    <p>
+                      The goal of this project was to implement a "B-Tree" algorithm and, additionally, measure how much we can improve that structure using some amount of cache memory.
+                    </p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                    <ul>
+                      <li><b>Tools:</b> C++, Thomas H. Cormen book on algorithms</li>
+                      <li>B-Tree is self-balancing tree data structure that maintains sorted data and enables searching, sequential access, insertions and deletions in logarithmic time.</li>
+                      <li>Because the cache size is much smaller than the B-Tree size, you can store only selected entries. The policy to be implemented is FIFO.</li>
+                      <li>A measure of cache impact is the number of disk accesses (measured as B-Tree depth). </li>
+                    </ul>
+                    <div class="card-action">
+                      <a aria-label="Visit the GitHub repo for project" href="https://github.com/damianStrojek/BTree"
+                        target="_blank" data-position="top" data-tooltip="View Source"
+                        class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                          class="fa fa-github"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Fifth Section: Books -->
+      <section id="books" class="section scrollspy">
+        <h3 class="page-title white-text teal">Books</h3>
+        <div class="container">
+          <div class="row">
+
+            <!-- 1. Computer Network for Beginners -->
+            <div class="col s12 m4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img alt="web security testing" src="/assets/img/book-1.jpg" style="height: 100%; width: auto; margin:auto; display: block;" class="activator" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline">Computer Networks in Packet Tracer Beginners<i class="mdi-navigation-more-vert right"></i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                  <p>
+                    The reader will find here the basics of configuring network devices. He will learn network services such as: TELNET, SSH, FTP, EMAIL, DHCP, DNS and routing protocols RIP, EIGRP, OSPF. Learn how to design and deploy virtual VLAN networks.
                   </p>
-                </ul>
+                  <div class="card-action">
+                    <a aria-label="Visit the bookstore" href="https://helion.pl/ksiazki/computer-networks-in-packet-tracer-for-beginners-damian-strojek-robert-wszelaki-marek-smyczek-je,e_359q.htm#format/e"
+                      target="_blank" data-position="top" data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                        class="fa fa-book"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Computer Network for Intermediate -->
+            <div class="col s12 m4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img alt="web security testing" src="/assets/img/book-2.jpg" style="height: 100%; width: auto; margin:auto; display: block;" class="activator" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline">Computer Networks in Packet Tracer Intermediate<i class="mdi-navigation-more-vert right"></i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                  <p>
+                    The reader finds here descriptions and practical exercises on configuring CISCO devices. It is a continuation of the first book with the same title.
+                  </p>
+                  <div class="card-action">
+                    <a aria-label="Visit the bookstore" href="https://helion.pl/ksiazki/computer-networks-in-packet-tracer-for-intermediate-users-damian-strojek-jerzy-kluczewski,e_359m.htm#format/e"
+                      target="_blank" data-position="top" data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                        class="fa fa-book"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Security CISCO ASA -->
+            <div class="col s12 m4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img alt="web security testing" src="/assets/img/book-3.jpg" style="height: 100%; width: auto; margin:auto; display: block;" class="activator" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline">Configure CISCO ASA Firewalls<i class="mdi-navigation-more-vert right"></i></span>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                  <p>
+                    The book Configuring CISCO ASA Firewalls in Packet Tracer contains the basics of filtering network traffic carried out on the computer, WIFI router and ASA devices
+                  </p>
+                  <div class="card-action">
+                    <a aria-label="Visit the bookstore" href="https://helion.pl/ksiazki/konfiguracja-firewalli-cisco-asa-w-programie-packet-tracer-jerzy-kluczewski-damian-strojek,e_1qfd.htm#format/e"
+                      target="_blank" data-position="top" data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                        class="fa fa-book"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Sixth Section: Skills -->
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+    
+        <!-- Languages -->
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Programming Languages</h4>
+              <div class="row text-center">
+
+                <div class="col s4 m2">
+                  <img alt="C and C++" src="/assets/img/cpp-logo.png" class="responsive-img" />C/C++
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Python" src="/assets/img/python-logo.png" class="responsive-img" />Python
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Assembly" src="/assets/img/assembly-logo.png" class="responsive-img" />Assembly
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Shell Scripting, e.g., bash, powershell" src="/assets/img/bash-logo.png" class="responsive-img" />Shell Scripting
+                </div>
+                <div class="col s4 m2">
+                  <img alt="HTML, CSS and JS" src="/assets/img/javascript-logo.png" class="responsive-img" />HTML, CSS, JS
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Java" src="/assets/img/java-logo.png" class="responsive-img" />Java
+                </div>
 
               </div>
             </div>
           </div>
+
+          <!-- Tools -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Tools</h4>
+              <div class="row text-center">
+
+                <div class="col s4 m2">
+                  <img alt="Microsoft Visual Studio and Studio Code" src="/assets/img/visual-studio-logo.png" class="responsive-img" />Visual Studio
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Burp Suite" src="/assets/img/nmap-logo.png" class="responsive-img" />nmap, rustscan
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Burp Suite" src="/assets/img/burp-suite-logo.png" class="responsive-img" />Burp Suite, ZAP
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Wireshark" src="/assets/img/wireshark-logo.png" class="responsive-img" />Wireshark
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Metasploit" src="/assets/img/metasploit-logo.png" class="responsive-img" />Metasploit
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Splunk" src="/assets/img/splunk-logo.png" class="responsive-img" />Splunk
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Other -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Other</h4>
+              <div class="row text-center">
+
+                <div class="col s4 m2">
+                  <img alt="Git" src="/assets/img/git-logo.png" class="responsive-img" />Git
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Microsoft Azure Cloud" src="/assets/img/azure-logo.png" class="responsive-img" />Azure
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Microsoft Defender" src="/assets/img/microsoft-defender-logo.png" class="responsive-img" />Microsoft Defender
+                </div>
+                <div class="col s4 m2">
+                  <img alt="MITRE ATT&CK" src="/assets/img/mitre-logo.webp" class="responsive-img" />MITRE ATT&CK
+                </div>
+                <div class="col s4 m2">
+                  <img alt="OWASP" src="/assets/img/owasp-logo.png" class="responsive-img" />OWASP
+                </div>
+                <div class="col s4 m2">
+                  <img alt="Qualys" src="/assets/img/qualys-cert-logo.png" class="responsive-img" />Qualys
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- certifications -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Certificates</h4>
+              <div class="row text-left">
+                <div class="container">
+                  <div class="row">
+
+                    <div class="col s12 m3">
+                      <div class="card medium">
+                        <div class="card-image">
+                          <img src="/assets/img/comptia-security-logo.png">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title teal-text">CompTIA Security+</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col s12 m3">
+                      <div class="card medium">
+                        <div class="card-image">
+                          <img src="/assets/img/ejpt-logo.png">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title teal-text">eJPT</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col s12 m3">
+                      <div class="card medium">
+                        <div class="card-image">
+                          <img src="/assets/img/microsoft-az-900-logo.png">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title teal-text">Microsoft AZ-900</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col s12 m3">
+                      <div class="card medium">
+                        <div class="card-image">
+                          <img src="/assets/img/microsoft-sc-900-logo.png">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title teal-text">Microsoft SC-900</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col s12 m3">
+                      <div class="card medium">
+                        <div class="card-image">
+                          <img src="/assets/img/cisco-r-s-logo.png">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title teal-text">CISCO Routing&Switching</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col s12 m3">
+                      <div class="card medium">
+                        <div class="card-image">
+                          <img src="/assets/img/cisco-sec-logo.png">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title teal-text">CISCO Security</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col s12 m3">
+                      <div class="card medium">
+                        <div class="card-image">
+                          <img src="/assets/img/qualys-cert-logo.png">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title teal-text">Qualys VMDR & WAS</span>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
-          <a aria-label="Email Damian" href="mailto:damian.piotr.strojek@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Damian" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Damian" href="mailto:damian.piotr.strojek@gmail.com"
-              class="hoverline">damian.piotr.strojek@gmail.com</a>
-          </a>
-        </p>
-        <p>
-          <a aria-label="View Damian on GitHub" href="http://github.com/damianStrojek" target="_blank"
-            data-position="top" data-tooltip="View Damian on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Damian on Github" href="http://github.com/damianStrojek" class="hoverline"
-              target="_blank">github.com/damianStrojek</a>
-          </a>
-        </p>
-        <p>
-          <a aria-label="View Damian on LinkedIn" href="http://linkedin.com/in/damianstrojek" target="_blank"
-            data-position="top" data-tooltip="View Damian on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Damian on LinkedIn" href="http://linkedin.com/in/damianstrojek"
-              class="hoverline" target="_blank">linkedin.com/in/damianstrojek</a>
-          </a>
-        </p>
-      </div>
-    </section>
-  </main>
+      <!-- Seventh Section: Education -->
+      <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
 
-  <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Engineer", "Student", "Author", "Weightlifter"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
-    });
-  </script>
+            <!-- Education -->
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"><a href="https://pg.edu.pl/en/" target="_blank" class="teal-text hoverline">Gdansk University of Technology</a></span>
+                  </p>
 
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+                  <p class="brown-text">Gdansk, Poland</p>
 
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                  <p>
+                    <b>Degree: </b>Bachelor of Science in Computer Science      
+                    <br>
+                    <b>End date: </b>02/2024
+                  </p>
+
+                  <ul>
+                    <p>
+                      <b>Relevant Courseworks:</b>
+                    <ul>
+                      <li>Programming Languages</li>
+                      <li>Computer Architecture</li>
+                      <li>Algorithms and Data Structures</li>
+                      <li>Artifical Intelligence</li>
+                      <li>Software Engineering</li>     
+                    </ul>
+                    </p>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title"><a href="https://www.zsl.gda.pl/" target="_blank" class="teal-text hoverline">Computer Science Technical High School</a></span>
+                  </p>
+
+                  <p class="brown-text">Gdansk, Poland</p>
+
+                  <p>
+                    <b>Degree: </b>Information and Communication Technology Technician
+                  </p>
+
+                  <ul>
+                    <p>
+                      <b>Relevant Courseworks:</b>
+                      <ul>
+                        <li>Computer Networks</li>
+                        <li>Basics of Programming</li>
+                        <li>Operating Systems</li>
+                      </ul>
+                    </p>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Eight Section: Contact -->
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+
+          <p>
+            <a aria-label="Email Damian" href="mailto:damian.piotr.strojek@gmail.com" target="_blank" data-position="top"
+              data-tooltip="Email Damian" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                class="fa fa-envelope"></i><a aria-label="Email Damian" href="mailto:damian.piotr.strojek@gmail.com"
+                class="hoverline">damian.piotr.strojek@gmail.com</a>
+            </a>
+          </p>
+
+          <p>
+            <a aria-label="View Damian on GitHub" href="http://github.com/damianStrojek" target="_blank"
+              data-position="top" data-tooltip="View Damian on GitHub"
+              class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+                aria-label="Damian on Github" href="http://github.com/damianStrojek" class="hoverline"
+                target="_blank">github.com/damianStrojek</a>
+            </a>
+          </p>
+
+          <p>
+            <a aria-label="View Damian on LinkedIn" href="http://linkedin.com/in/damianstrojek" target="_blank"
+              data-position="top" data-tooltip="View Damian on LinkedIn"
+              class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                class="fa fa-linkedin"></i><a aria-label="Damian on LinkedIn" href="http://linkedin.com/in/damianstrojek"
+                class="hoverline" target="_blank">linkedin.com/in/damianstrojek</a>
+            </a>
+          </p>
+
+        </div>
+      </section>
+    </main>
+
+    <!-- typed.js -->
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script type="text/javascript">
+      var typed = new Typed('.typing',{
+        strings: ["Engineer", "Student", "Author", "Weightlifter"],
+        loop: true,
+        typeSpeed: 80,
+        backSpeed: 40
+      });
+    </script>
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function () {
+        $(".scrollspy").scrollSpy()
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          menuWidth: 190, // Default is 240
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        })
       })
-    })
-  </script>
-</body>
-
+    </script>
+  </body>
 </html>
