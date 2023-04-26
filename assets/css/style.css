@@ -315,7 +315,7 @@ h3 {
   width: 100%;
 }
 
-.waves-effect.waves-blue .waves-ripple {
+.waves-effect .waves-blue .waves-ripple {
   /* The alpha value allows the text and background color
    of the button to still show through. */
   background-color: rgba(33, 150, 243, 0.2);
@@ -401,6 +401,10 @@ h3 {
   font-size: 24px;
 }
 
+.card.small .card-title {
+  font-size: 24px;
+}
+
 .card .card-content .card-title {
   line-height: 2.5rem;
 }
@@ -469,6 +473,10 @@ a.hoverline:hover {
   height: 150px;
 }
 
+.card-cert {
+  scale: 70%;
+}
+
 .card-action a.btn-floating {
   margin-bottom: 0;
 }
@@ -507,6 +515,14 @@ small {
 
 .teal {
   background-color: #FFAA46 !important;
+}
+
+div.show-on-mobile {
+  display: none;
+}
+
+div.hide-on-mobile {
+  display: block;
 }
 
 @media (min-width: 1200px) {
@@ -556,12 +572,14 @@ small {
   .container {
     margin: 0 auto;
   }
+
   nav.hide-on-large.only.trigger {
     display: block;
     position: fixed;
     top: 0;
     z-index: 2;
   }
+
   .name-title {
     display: block;
     height: 100%;
@@ -602,12 +620,33 @@ small {
     line-height: 200%;
     margin: 30px 0 0;
   }
+
+  div.show-on-mobile {
+    display: block;
+  }
+
+  div.hide-on-mobile {
+    display: none;
+  }
+
+  .card-cert {
+    scale: 50%;
+  }
+
+  .card .card-image img {
+    margin-top: -60px;
+    scale: 40%;
+  }
+
   #intro.section .container *:not(span) {
     padding: 0;
   }
   .card .card-content .card-title {
     font-size: 20px;
     line-height: 24px;
+  }
+  .card .card-content {
+    font-size: 15px;
   }
   #experience span.card-title {
     text-align: center;
