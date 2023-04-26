@@ -631,9 +631,6 @@ div.hide-on-mobile {
 
   .card-cert {
     scale: 50%;
-  }
-
-  .card .card-image img {
     margin-top: -60px;
     scale: 40%;
   }
